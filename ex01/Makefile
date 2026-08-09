@@ -1,12 +1,12 @@
 # Output binary (must end in .exe for Windows)
-NAME := starter
+NAME := Timer
 
 # Compiler and flags (-mconsole forces console subsystem)
 CXX      := c++
 CXXFLAGS := -Wall -Wextra -Werror -std=c++17 -mconsole
 
 # Source files
-SRCS := main.cpp starter.cpp
+SRCS := main.cpp Timer.cpp
 OBJS := $(SRCS:.cpp=.o)
 
 # Default target
