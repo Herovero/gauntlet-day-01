@@ -12,4 +12,6 @@ public:
     float y() const;
 
     float length() const;
+
+    Vec2 plus(const Vec2& other) const;
 };

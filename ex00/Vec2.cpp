@@ -17,3 +17,7 @@ float Vec2::y() const {
 float Vec2::length() const {
     return std::sqrt(_x * _x + _y * _y);
 }
+
+Vec2 Vec2::plus(const Vec2& other) const {
+    return Vec2(_x + other._x, _y + other._y);
+}
