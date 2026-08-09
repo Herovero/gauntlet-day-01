@@ -1,5 +1,4 @@
 #include "Timer.hpp"
-#include <iostream>
 
 Timer::Timer(int startMs) : m_elapsedMs(startMs) {}
 

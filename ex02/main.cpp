@@ -6,5 +6,5 @@ int main(){
     std::cout << "spawned " << spawner.spawn() << '\n';   // 1
     std::cout << "spawned " << spawner.spawn() << '\n';   // 2
     std::cout << "spawned " << spawner.spawn() << '\n';   // 2 (capped)
-    std::cout << "total   " << spawner.getSpawned() << '\n';
+    std::cout << "total   " << spawner.spawnCount() << '\n';
 }

@@ -10,5 +10,5 @@ class EnemySpawner {
 
       int spawn();
 
-      int getSpawned() const;
+      int spawnCount() const;
   };

@@ -9,6 +9,6 @@ int EnemySpawner::spawn() {
     return _spawnedCount;
 }
 
-int EnemySpawner::getSpawned() const {
+int EnemySpawner::spawnCount() const {
     return _spawnedCount;
 }
