@@ -14,4 +14,7 @@ public:
     float length() const;
 
     Vec2 plus(const Vec2& other) const;
+
+    void setX(float x);
+    void setY(float y);
 };

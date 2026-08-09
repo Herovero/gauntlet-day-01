@@ -21,3 +21,11 @@ float Vec2::length() const {
 Vec2 Vec2::plus(const Vec2& other) const {
     return Vec2(_x + other._x, _y + other._y);
 }
+
+void Vec2::setX(float x) {
+    _x = x;
+}
+
+void Vec2::setY(float y) {
+    _y = y;
+}
